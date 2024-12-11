@@ -1,0 +1,79 @@
+.TimeInLabel {
+    text-align: center;
+    font-size: larger;
+    padding : 15% 5% 5% 5%;
+}
+
+.CurrentTime {
+    padding : 5% 5% 5% 5%;
+    text-align : center;
+}
+
+.CurrentTime label {
+    padding : 5%;
+}
+
+.CurrentTime span    {
+    background-color : white;
+    padding: 2%;
+    border-radius: 15px;
+    text-align : center;
+}
+
+.ImageInput {
+    padding : 0% 5% 5% 5%;
+    text-align: center;
+}
+
+.CameraLogoDiv  {
+    width: 250px;
+    display: inline-block;
+    margin : auto;
+    border-radius : 15px;
+    border : 1px solid #161616;
+    border-style : dashed;
+    background-color : rgba(230, 230, 230, 0.623);
+    text-align: center;
+}
+
+.CameraLogoDiv img {
+    width : 60%;
+}
+
+.CameraLogoDiv p {
+    margin : 0px;
+}
+
+.RemarksBox {
+    text-align: center;
+    padding : 0% 5% 1% 5%;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    font-size: 12pt;
+    font-family: Montserrat;
+    border-radius : 15px;
+}
+
+.SubmitClear {
+    padding : 1% 5% 25% 5%;
+    text-align: center;
+}
+
+.FormSubmit {
+    background-color:rgb(100, 190, 90);
+    border: 0px;
+    width : 80px;
+    height : 30px;
+    border-radius : 15px;
+}
+
+.FormClear {
+    background-color:rgb(182, 81, 81);
+    border : 0px;
+    width : 80px;
+    height : 30px;
+    border-radius : 15px;
+}

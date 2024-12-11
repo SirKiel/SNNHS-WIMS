@@ -1,0 +1,88 @@
+.JournalTab {
+
+}
+
+.JournalTab div {
+    background-color : rgb(255, 255, 190);
+    border-radius : 15px 15px 0px 0px;
+    padding: 5%;
+    width : 150px;
+    height : 50px;
+    text-align: center;
+    display : inline-block;
+}
+
+.JournalTab div label {
+    padding-top : 50px;
+    font-size : larger;
+    width : 150px;
+    height : 50px;
+}
+
+.JournalContent {
+    width : 100%;
+    height : 500px;
+    background-color : rgb(255, 255, 190);
+}
+
+.JournalLabel {
+    text-align : center;
+    padding : 5%;
+}
+
+.JournalLabel label {
+    font-size : larger;
+}
+
+.JournalReflection {
+    padding : 0% 5% 0% 5%;
+}
+
+textarea {
+    font-size : 12pt;
+    font-family : Montserrat;
+    resize : none;
+    border-radius : 10px;
+    width : 100%;
+    height : 150px;
+}
+
+.JournalDocumentation {
+    padding : 0% 5% 0% 5%;
+}
+
+.JournalDocumentation div {
+    border-radius : 10px;
+    padding : 1%;
+    width : 100%;
+    height : auto;
+    background-color: white;
+    display : inline-block;
+}
+
+.JournalDocumentation div img {
+    width : 80px;
+    border-radius : 10px;
+    border : 1px solid #161616;
+    border-style : dashed;
+    display : inline-block;
+}
+
+.JournalDocumentation div div {
+    background-color :rgb(221, 221, 221);
+    display : inline-block;
+    width : 80px;
+    height: 80px;
+}
+
+.SubmitButton {
+    padding : 5%;
+    width : 100%;
+    text-align : center;
+}
+
+.SubmitButton submit {
+    background-color :rgb(135, 255, 151);
+    padding : 3%;
+    border-radius : 15px;
+}
