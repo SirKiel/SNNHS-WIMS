@@ -17,6 +17,11 @@
     font-size : larger;
     width : 150px;
     height : 50px;
+    text-decoration : none;
+}
+
+a {
+    text-decoration : none; 
 }
 
 .JournalContent {
@@ -85,4 +90,34 @@ textarea {
     background-color :rgb(135, 255, 151);
     padding : 3%;
     border-radius : 15px;
+}
+
+/*PastJournals*/
+.PreviousJournals {
+    width : 100%;
+    padding : 5%;
+}
+
+.JournalDate {
+    Background-color: rgb(72, 63, 196);
+    padding : 5% 5%;
+    border-radius: 10px;
+    color : white;
+    margin : 1% 0px 0px 0px;
+}
+
+.JournalDate label {
+    padding-right : 40%;
+}
+
+#JournalEntry {
+    background-color :rgb(159, 157, 190);
+    padding : 5%;
+    margin : 0px 2% 0px 2%;
+    border-radius : 0px 0px 10px 10px;
+    display : none;
+}
+
+#JournalEntry button {
+    text-align : center;
 }

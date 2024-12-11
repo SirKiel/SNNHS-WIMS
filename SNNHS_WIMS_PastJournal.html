@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="SNNHS_WIMS_website-structure.css">
         <link rel="stylesheet" href="SNNHS_WIMS_DailyJournal.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="SNNHS_WIMS.js"></script>
     </head>
     <body>
         <div class="header_panel">
@@ -27,42 +28,24 @@
                     </div>
                 </div>
                 <div class="JournalContent">
-                    <div class="JournalLabel">
-                        <label>Journal</label>
-                    </div>
-                    <div class="JournalReflection">
-                        <label>Reflection</label><br>
-                        <textarea placeholder="Reflection..."></textarea>
-                    </div>
-                    <div class="JournalDocumentation">
-                        <label>Photos</label>
+                    <div class="PreviousJournals">
                         <div>
-                            <img src="Assets/CameraLogo.png">
-                            <div>
-                                <!--Images will be pasted here-->
+                            <div class="JournalDate">
+                                <label>Dec. XX, 20XX</label>
+                                <button onclick="showJournal()">Review</button>
                             </div>
-                            <div>
-                                <!--Images will be pasted here-->
-                            </div>
-                            <div>
-                                <!--Images will be pasted here-->
-                            </div>
-                            <div>
-                                <!--Images will be pasted here-->
-                            </div>
-                            <div>
-                                <!--Images will be pasted here-->
-                            </div>
-                            <div>
-                                <!--Images will be pasted here-->
-                            </div>
-                            <div>
-                                <!--Images will be pasted here-->
+                            <div id="JournalEntry">
+                                <label>This dropdown will show the entry of the journal.</label>
+                                <br>
+                                <button>Edit</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="SubmitButton">
-                        <submit>Submit</submit>
+                        <div>
+                            <div class="JournalDate">
+                                <label>Dec. XX, 20XX</label>
+                                <button>Review</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
