@@ -1,0 +1,153 @@
+ .TaskMgtHeader {
+    text-align: center;
+ }
+ 
+ .TaskMgtButtons button {
+    border : 0px;
+    font-size: 12pt;
+ }
+
+ .Task_ToDo {
+    background-color : rgb(127, 178, 255);
+    border-radius : 15px 15px 0px 0px;
+    padding: 5%;
+    max-width : 100%;
+    height : 50px;
+    text-align: center;
+    display : inline-block;
+}
+
+.Task_Doing {
+    background-color : rgb(255, 240, 158);
+    border-radius : 15px 15px 0px 0px;
+    padding: 5%;
+    max-width : 100%;
+    height : 50px;
+    text-align: center;
+    display : inline-block;
+}
+
+.Task_Done {
+    background-color : rgb(152, 255, 132);
+    border-radius : 15px 15px 0px 0px;
+    padding: 5%;
+    max-width : 100%;
+    height : 50px;
+    text-align: center;
+    display : inline-block;
+}
+
+a {
+    text-decoration : none;
+    color : black;
+
+}
+
+.Content {
+    background-color: rgb(127, 178, 255);
+    padding : 5%;
+    width : 100%;
+}
+
+.TaskList {
+    padding : 5%;
+    width : 100%;
+}
+
+.AddTask {
+    text-align : center;
+    background-color: rgb(0, 136, 255);
+    border-radius: 15px;
+    padding : 2%;
+    width : 100%;
+}
+
+.AddTask img {
+    width : 13pt;
+}
+
+.AddTask label {
+    font-size: 12pt;
+    display : inline-block;
+}
+
+#Task_ToDo_Content {
+    background-color: rgb(127, 178, 255);
+    padding : 5%;
+    width : 100%;
+    display : block;
+}
+
+.ToDoTask {
+    background-color: rgb(69, 143, 255);
+    padding : 5%;
+    margin : 1%;
+    border-radius: 15px;
+    width : 100%;
+}
+
+#Task_Doing_Content {
+    background-color: rgb(255, 240, 158);
+    padding : 5%;
+    width : 100%;
+    display : block;
+}
+
+.DoingTask {
+    background-color: rgb(255, 230, 87);
+    padding : 5%;
+    margin : 1%;
+    border-radius: 15px;
+    width : 100%;
+}
+
+#Task_Done_Content {
+    background-color: rgb(152, 255, 132);
+    padding : 5%;
+    width : 100%;
+    display : block;
+}
+
+.DoneTask {
+    background-color: rgb(89, 255, 56);
+    padding : 5%;
+    margin : 1%;
+    border-radius: 15px;
+    width : 100%;
+}
+
+/*Pop Up*/
+#PopUp {
+    display: none;
+    padding : 5%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.PopUpContainer {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    height : 93%;
+    border-radius: 15px;
+}
+
+.PopUpHeader {
+    width : 100%;
+    text-align: right;
+    padding-bottom : 2%;
+}
+
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+.StudentTask {
+    width : 100%;
+    background-color: rgb(220, 220, 255);
+}
+
+.TaskLabel {
+    padding : 5%;
+    text-align : center;
+}
+
+.TaskLabel label {
+    font-size: larger;
+}
+
+.AssignedTasks {
+    width : 100%;
+}
+
+.TaskList {
+    width : 100%;
+    padding : 0% 5%;
+}
+
+.Task {
+    background-color : rgb(255, 255, 150);
+    width : 100%;
+    padding : 5%;
+    border-radius: 10px;
+}
+
+.TaskContent {
+    background-color : white;
+    padding : 5%;
+    margin : 0px 2% 0px 2%;
+    border-radius : 0px 0px 10px 10px;
+}
+
+.TaskActButton {
+    text-align : center;
+}
+
+.TaskActButton button {
+    background-color: rgb(134, 223, 134);
+    padding : 5% 10%;
+    border-radius : 10px;
+    border : 0px;
+}

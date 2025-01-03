@@ -1,0 +1,111 @@
+.TraineeTimeLogHeader {
+    width : 100%;
+    padding : 5%;
+}
+
+.TraineeTimeLogHeader h1 {
+    margin : 0px;
+    padding: 0px 5% 0px 5%;
+    text-align: center;
+}
+
+.TraineeTimeLogHeader span {
+    padding : 5% 10px;
+    text-align: center;
+    width : 100%;
+    display : block;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+/*Container for the Time Log*/
+.List {
+    width : 100%;
+    padding : 5%;
+}
+
+.TimeLogContent {
+    width : 100%;
+    padding : 5%;
+    background-color: rgb(134, 134, 255);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Profile {
+    width : 100%;
+    display: flex;
+}
+
+.StudentImage {
+    width : 15%;
+    display: inline-block;
+}
+
+.StudentImage img {
+    width : 100%;
+    border-radius: 100%;
+    background-color : rgb(136, 187, 216);
+}
+
+.StudentName {
+    width : 60%;
+    padding : 0px 3%;
+    display : inline-block;
+}
+
+ #Name {
+    width : 100%;
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(16,16,16);
+ }
+
+ #Section {
+    width : 100%;
+    font-size: 12pt;
+    color: rgb(16,16,16);
+    display : block;
+ }
+
+ .TimeRecord {
+    width : 100%;
+ }
+
+table { 
+    width: 100%;
+    padding : 5% 0px;
+    background-color: rgb(230, 238, 255);
+    border-radius: 15px;
+}
+
+tr {
+    width : 100%;
+    text-align: center;
+}
+
+.SupervisorRemarks {
+    width : 100%;
+    padding : 5%;
+    background-color: rgb(230, 230, 255);
+    border-radius: 0px 0px 15px 15px;
+    display: block;
+}
+
+.SupervisorRemarks textarea {
+    width : 100%;
+    padding : 5%;
+    border-radius: 15px;
+    font-size: 12pt;
+}
+
+.SupervisorRemarks button {
+    width : 30%;
+    padding : 2%;
+    border-radius: 15px;
+    border : none;
+    background-color: rgb(72, 204, 60);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

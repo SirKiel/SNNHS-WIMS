@@ -1,0 +1,42 @@
+
+.announcement   {
+    max-width: 70%;
+    background-color: rgb(90, 167, 255);
+    border-radius : 0px 0px 15px 15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.announcement p {
+    margin : 0px;
+    padding: 5%;
+}
+
+.navigation {
+    padding: 5% 5% 30% 5%;
+    text-align: center;
+}
+
+.nav_buttons {
+    max-width : 100%;
+    height: auto;
+    padding : 1%;
+    background-color: rgb(240, 255, 108);
+    border-radius : 15px;
+    margin : 2% 0px;
+}
+
+.nav_buttons img    {
+    width: 20%;
+
+}
+
+.nav_buttons p {
+    margin : 0px;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color : black;
+}

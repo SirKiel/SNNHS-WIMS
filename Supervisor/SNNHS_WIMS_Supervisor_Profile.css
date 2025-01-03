@@ -1,0 +1,36 @@
+.SupervisorProfile {
+    background-color : white;
+    padding : 5%;
+    width : 100%;
+}
+
+.NameID {
+    text-align : center;
+    width : 100%;
+}
+
+.NameID div img {
+    width : 45%;
+    border-radius : 100%;
+    background-color: rgb(255, 236, 62);
+}
+
+#SupervisorName h1 {
+    margin : 0px;
+}
+
+.BasicInformation {
+    padding : 5% 0% 5% 0%;
+}
+
+.ProfileButtons {
+    padding : 5%;
+    text-align: right;
+}
+
+.ProfileButtons button {
+    background-color : rgb(204, 204, 204);
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 12pt;
+}

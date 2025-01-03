@@ -1,13 +1,64 @@
 .LogInForm  {
-    padding: 49% 20%;
+    padding: 40% 10%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.RegisterForm {
+    padding: 10% 10%;
     border-radius: 10px;
     background-color: white;
 }
 
 h1  {
     margin : 0px;
+    padding-bottom: 10%;
 }
 
 button  {
-    margin : 10px;
+    margin : 10px 0px;
+    border : 0px;
+    background-color: rgb(145, 255, 145);
+    padding : 5%;
+    width : 100%;
+    font-size: 12pt;
+    border-radius: 10px;
+}
+
+input {
+    margin : 10px 0px;
+    padding : 10px;
+    border-radius: 5px;
+    width: 100%;
+    border-color: rgb(179, 197, 214);
+    background-color: rgb(234, 245, 255);
+}
+
+label {
+    padding : 10px;
+    width: 100%;
+    font-size : 12pt;
+}
+
+/*Registration*/
+.RoleSelection {
+    width: 100%;
+    padding: 0% 10%;
+}
+
+.Roles {
+    font-size: 9pt;
+    margin : 0px;
+    display: inline-block;
+    width : auto;
+}
+
+.RolesRadio {
+    margin : 0px;
+    width : auto;
+}
+
+.Info {
+    display : none;
+    transition : 0.5s;
 }
