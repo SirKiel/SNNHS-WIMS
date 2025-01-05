@@ -87,7 +87,7 @@
 
 /*Pop Up*/
 #PopUp {
-    display: block;
+    display: none;
     padding : 5%;
     position: fixed;
     z-index: 1;
