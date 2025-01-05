@@ -37,6 +37,15 @@
                 <div class="divTableCell" id="___">&nbsp;</div>
                 <div class="divTableCell" id="remarks">&nbsp;</div>
             </div>
+
+            <div class="divTableRow">
+                <div class="divTableCell" id="day2">&nbsp;</div>
+                <div class="divTableCell" id="___">&nbsp;</div>
+                <div class="divTableCell" id="___">&nbsp;</div>
+                <div class="divTableCell" id="___">&nbsp;</div>
+                <div class="divTableCell" id="___">&nbsp;</div>
+                <div class="divTableCell" id="remarks">&nbsp;</div>
+            </div>
         </div>
     </div>
 
