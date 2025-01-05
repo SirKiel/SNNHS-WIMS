@@ -1,0 +1,122 @@
+/*Main Content*/
+.TLMgt {
+    width : 100%;
+    padding : 5%;
+}
+
+.TLMgt_Header {
+    width : 100%;
+    text-align: center;
+    padding-bottom : 5%;
+}
+
+.TLMgt_Header h1 {
+    font-size: 20pt;
+    margin : 0px;
+}
+
+.Container {
+    width : 100%;
+}
+
+/*List of Trainees*/
+.List {
+    background-color: rgb(134, 134, 255);
+    width : 100%;
+    padding : 2%;
+    border-radius: 15px;
+    display : flex;
+    margin-bottom: 10px;
+}
+
+.StudentImage {
+    width : 15%;
+    display : inline-block;
+}
+
+.StudentImage img {
+    width : 100%;
+    border-radius: 100%;
+    background-color : rgb(136, 187, 216);
+}
+
+.StudentName {
+    width : 60%;
+    padding : 3%;
+    display : inline-block;
+}
+
+#Name { 
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(16,16,16);
+}
+
+#Section {
+    font-size: 12pt;
+    color: rgb(16,16,16);
+    display : block;
+}
+
+#COMPANY { 
+    font-size: 12pt;
+    color: rgb(16,16,16);
+    display : block;
+}
+
+#WI_SUPERVISOR {
+    font-size: 12pt;
+    color: rgb(16,16,16);
+    display : block;
+}
+
+.StudentButtons {
+    display : inline-block;
+    width : 20%;
+}
+
+.StudentButtons button {
+    background-color : rgb(215, 241, 255);
+    margin : 2px;
+    width : 100%;
+    border : 0px;
+    border-radius: 15px;
+    padding: 10% 1%;
+    font-size: 12pt;
+}
+
+/*Pop Up*/
+#PopUp {
+    display: block;
+    padding : 5%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.PopUpContainer {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    height : 93%;
+    border-radius: 15px;
+}
+
+.PopUpHeader {
+    width : 100%;
+    text-align: right;
+    padding-bottom : 2%;
+}
+
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}

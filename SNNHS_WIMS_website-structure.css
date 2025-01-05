@@ -101,3 +101,59 @@ body    {
     color: rgb(20, 20, 20);
     margin : 0px;
 }
+
+/*Group Manager*/
+.header_panel_GroupManager   {
+    width: 100%;
+    height: auto;
+    background-color:   rgb(94, 204, 100);
+}
+
+.header_panel_GroupManager h1  {
+    padding : 0px;
+    font-size : 18px;
+    color: rgb(20, 20, 20);
+    margin : 0px;
+}
+
+/*For Trainee DTR*/
+.TraineeName { 
+    width : 100%;
+    text-align: center;
+}
+.TraineeName span {
+    font-weight: bold;
+    padding : 5%;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
