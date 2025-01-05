@@ -33,6 +33,7 @@
                                 <span id="WI_SUPERVISOR">Mr. Douglas MacArthur</span>
                             </div>
                             <div class="StudentButtons">
+                                <input type="radio" value="status_checked" name="trainee1" id="Status"><span>checked</span>
                                 <button id="ViewProfile" onclick="openWindow()">DTR</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Journal</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Profile</button>
@@ -50,6 +51,7 @@
                                 <span id="WI_SUPERVISOR">Mr. Douglas MacArthur</span>
                             </div>
                             <div class="StudentButtons">
+                                <input type="radio" value="status_checked" name="trainee2" id="Status"><span>checked</span>
                                 <button id="ViewProfile" onclick="openWindow()">DTR</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Journal</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Profile</button>
