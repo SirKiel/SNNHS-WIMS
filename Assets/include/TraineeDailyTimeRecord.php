@@ -48,6 +48,4 @@
             </div>
         </div>
     </div>
-
-    <span>Note: The content of the Popup window is interchangeable based on the button clicked by the Group Managers. Dashboard for Group Managers and Work Immersion will be designed soon. For the meantime, this feature is needed to allow the group managers monitor the trainees.</span>
 </div>

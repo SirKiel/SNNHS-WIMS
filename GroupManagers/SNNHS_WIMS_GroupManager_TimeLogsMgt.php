@@ -31,9 +31,12 @@
                                 <span id="Section">Grade 12 - STEM</span>
                                 <span id="COMPANY">Black Nazarene</span>
                                 <span id="WI_SUPERVISOR">Mr. Douglas MacArthur</span>
+                                <div class="Status">
+                                    <input type="radio" value="status_checked" name="trainee1" id="StatusComplete"><span>Complete</span>
+                                    <input type="radio" value="status_checked" name="trainee1" id="StatusIncomplete"><span>Incomplete</span>
+                                </div>
                             </div>
                             <div class="StudentButtons">
-                                <input type="radio" value="status_checked" name="trainee1" id="Status"><span>checked</span>
                                 <button id="ViewProfile" onclick="openWindow()">DTR</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Journal</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Profile</button>
@@ -49,9 +52,12 @@
                                 <span id="Section">Grade 12 - ABM</span>
                                 <span id="COMPANY">Black Nazarene</span>
                                 <span id="WI_SUPERVISOR">Mr. Douglas MacArthur</span>
+                                <div class="Status">
+                                    <input type="radio" value="status_checked" name="trainee1" id="StatusComplete"><span>Complete</span>
+                                    <input type="radio" value="status_checked" name="trainee1" id="StatusIncomplete"><span>Incomplete</span>
+                                </div>
                             </div>
                             <div class="StudentButtons">
-                                <input type="radio" value="status_checked" name="trainee2" id="Status"><span>checked</span>
                                 <button id="ViewProfile" onclick="openWindow()">DTR</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Journal</button><br>
                                 <button id="ViewTimeLog" onclick="openWindow()">Profile</button>
@@ -67,7 +73,9 @@
                             </div>
                             <hr>
                             <div class="PopUpContent">
+                            <span>Note: The content of the Popup window is interchangeable based on the button clicked by the Group Managers. Dashboard for Group Managers and Work Immersion will be designed soon. For the meantime, this feature is needed to allow the group managers monitor the trainees.</span>
                                 <?php include(INCLUDE_PATH . "/include/TraineeDailyTimeRecord.php") ?>
+                                <?php include(INCLUDE_PATH . "/include/TraineeProfile.php") ?>
                             </div>
                         </div>
                     </div>
