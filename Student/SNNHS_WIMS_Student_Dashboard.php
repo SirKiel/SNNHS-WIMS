@@ -29,4 +29,4 @@
 
         <?php include(INCLUDE_PATH . "/include/FooterPanel.php") ?>
     </body>
-</html><!---->
+</html>
