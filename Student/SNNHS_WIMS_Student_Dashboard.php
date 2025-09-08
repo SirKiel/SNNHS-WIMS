@@ -18,8 +18,13 @@
                     <p><b>Announcement:</b></p>
                     <p></p>
                 </div>
+
                 <div class="navigation">
-                    <div class="nav_buttons"><a href="SNNHS_WIMS_Student_TimeIn.php"><img src="../Assets/TimeInLogo.png"></a></div>
+                    <div class="nav_buttons">
+                        <!--Notification Icon-->
+                        <a href="#"><?php include(INCLUDE_PATH . "/include/NotifIcon.php") ?></a>
+                        <a href="SNNHS_WIMS_Student_TimeIn.php"><img src="../Assets/TimeInLogo.png"></a>
+                    </div>
                     <div class="nav_buttons"><a href="SNNHS_WIMS_Student_DailyJournal.php"><img src="../Assets/JournalLogo.png"></a></div>
                     <div class="nav_buttons"><a href="SNNHS_WIMS_Student_TaskMgt.php"><img src="../Assets/TaskManagementLogo.png"></a></div>
                     <div class="nav_buttons"><a href="SNNHS_WIMS_Student_Profile.php"><img src="../Assets/ProfileLogo.png"></a></div>
@@ -28,5 +33,6 @@
         </div>
 
         <?php include(INCLUDE_PATH . "/include/FooterPanel.php") ?>
+
     </body>
 </html>

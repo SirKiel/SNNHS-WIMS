@@ -29,3 +29,45 @@
     background-color: rgb(119, 141, 200);
     border-radius : 15px;
 }
+
+/* Notification Icon */
+.notification {
+    width : 10%;
+    height : 10%;
+    border-top : 5%;
+    padding-left: 75%;
+}
+
+.notif_icon_container {
+    z-index : 2;
+    float : left;
+    width : 100%;
+    aspect-ratio: 1/1;
+}
+
+.notif_icon {
+    font-size:8vw;
+    z-index : 3;
+    position : absolute;
+}
+
+.notif_red_dot {
+    background-color: red;
+    border-radius: 50%;
+    width : 5%;
+    width : 5%;
+    aspect-ratio: 1/1;
+    z-index : 4;
+    margin-top: 1%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.notif_red_dot span {
+    color: white;
+    font-size: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
