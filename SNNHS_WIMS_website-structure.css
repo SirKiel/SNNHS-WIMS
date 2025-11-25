@@ -185,6 +185,14 @@ body    {
     margin  : 177px;
 }
 
+.PageHeader {
+    text-align  :   center;
+}
+
+.PageHeader img {
+    aspect-ratio:   1/1;
+}
+
 .Rep_PH {
     font-family :   'Old English Text MT';
     font-size   :   11pt;
