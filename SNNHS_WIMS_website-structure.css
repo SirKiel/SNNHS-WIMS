@@ -176,3 +176,33 @@ body    {
 .divTableBody {
 	display: table-row-group;
 }
+
+/*WIP HandBook*/
+.PageSize   {
+    width : 2480px;
+    height  :   3508px;
+    background-color    :   blue;
+    margin  : 177px;
+}
+
+.Rep_PH {
+    font-family :   'Old English Text MT';
+    font-size   :   11pt;
+}
+
+.DepEd {
+    font-family :   'Old English Text MT';
+    font-size   :   18pt;
+}
+
+.Trajan    {
+    font-family :   'Trajan Pro';
+    font-size   :   11pt;
+}
+
+.WIP_Handbook   {
+    height  :   561px;
+    width  :   2130px;
+    font-size   : 48pt;
+    font-family : 'Cambria';
+}
